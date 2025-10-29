@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malaika | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Sidebar Header -->
+  <header class="sidebar">
+    <img src="images/malaika-logo.png" alt="Malaika Logo" class="logo" />
+    <p>A Front-End Web Developer</p>
+    <nav>
+      <ul>
+        <li><a href="#about"> About</a></li>
+        <li><a href="#projects"> Projects</a></li>
+        <li><a href="#contact"> Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+<section class="banner-section">
+  <div class="banner-content">
+    <img src="images/banner.jpg" alt="Banner" class="banner-img" />
+    <div class="banner-text">
+      <h1>Hi, I'm Malaika</h1>
+      <p>Front-End Developer & Creative Thinker</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I'm <strong>Malaika</strong>, a creative front-end developer from Lahore. I specialize in making clean, modern, and responsive websites using HTML, CSS, and JavaScript. I love bringing ideas to life in the browser.
+      </p>
+      <p>
+      Email: 
+    <a href="mailto:malaikakhaleel56@gmail.com" class="email-link">
+      malaikakhaleel56@gmail.com
+    </a>
+  </p>
+      <h2>Malaika Khaleel</h2>
+      <p class="quote">“Designing dreams with code.”</p>
+
+      <a href="images/cv-malaika.png" download="Malaika_Khaleel_CV.png">
+  <button class="cv-download-btn">Download CV</button>
+</a>
+
+
+      <ul class="about-skills">
+        <li>✨ HTML, CSS, JavaScript</li>
+        <li>💡 Problem Solver & Creative Thinker</li>
+        <li>📱 Mobile-Responsive Designs</li>
+        <li>🎨 UI Animations & Modern Layouts</li>
+      </ul>
+    </div>
+    <img src="images/malaika-profile.jpg" alt="Malaika" class="about-img" />
+  </div>
+</section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-gallery">
+        <div class="project-item">
+          <img src="images/todo.png" alt="To-do App" />
+          <p>To-do App</p>
+        </div>
+        <div class="project-item">
+          <img src="images/calculator.png" alt="Calculator" />
+          <p>Calculator</p>
+        </div>
+        <div class="project-item">
+          <img src="images/clothing web.png" alt="Clothing Website" />
+          <p>Clothing Website</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Lightbox for image preview -->
+  <div id="lightbox" class="lightbox">
+    <span class="nav left" id="prev">&#10094;</span>
+    <img id="lightbox-img" src="" alt="Preview" />
+    <span class="nav right" id="next">&#10095;</span>
+  </div>
+
+  <footer>
+  © 2025 Malaika. All rights reserved. |
+  <a href="https://www.instagram.com/limelightbymala" target="_blank" class="insta-link">
+    <i class="fab fa-instagram"></i> Lime Light by Mala
+  </a>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
